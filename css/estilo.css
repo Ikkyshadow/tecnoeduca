@@ -1,0 +1,59 @@
+#footer {
+    background: #2E4053;
+    color: white ;
+}
+
+#footer a, #footer small, #footer h5, #footerDivider a{
+    color: white;
+    text-decoration: none;
+}
+
+#footerDivider{
+    background: #7F8C8D;
+}
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.5);   
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100;
+}
+
+.btn-tecnoeduca{
+    background-color: #7F8C8D;
+    color: white;
+
+}
+
+.btn-tecnoeduca:hover{
+    background-color: #A6ACAF;
+    color: white;
+}
+
+#clase{
+    background:slategray;
+    color: white;
+}
+
+#clase img{
+    max-width: 100;
+}
